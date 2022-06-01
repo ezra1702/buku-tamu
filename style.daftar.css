@@ -1,0 +1,34 @@
+@media (min-width: 992px) { 
+    .container img{
+        width: 70px;
+        height: 70px;
+    }
+    .container{
+        width: 30%;
+    }
+    .container h2{
+        font-size: 26px;
+    }
+
+ }
+ @media (max-width: 900px) { 
+    .container img{
+        width: 70px;
+        height: 70px;
+    }
+    .container{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+ }
+ .container{
+     background-color: white;
+ }
+ body {
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+  }
